@@ -20,7 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(9nus1m^s49k4vv@s4etw64+hl$v$0t9x+obf1!zmq74c8aevp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -143,9 +142,6 @@ LOGOUT_REDIRECT_URL = 'home'    # django to send the user back to the home page
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
-# EMAIL_BACKEND = 'django_mailgun.MailgunBackend'
-# MAILGUN_ACCESS_KEY = 'f7d0b107-370d76e0'
-# MAILGUN_SERVER_NAME = 'postmaster@sandboxbe3a36bb35de4b61ab80222661e3ba42.mailgun.org'
 
 
 DEFAULT_FROM_EMAIL = 'Nanyia@ymail.com'
