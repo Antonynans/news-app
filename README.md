@@ -1,2 +1,2 @@
 # news-app
-A fully functional blog site built with django
+A fully functional blog app built with django, bootstrap including user authentications, permissions and more...
